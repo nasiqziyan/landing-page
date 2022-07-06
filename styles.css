@@ -6,14 +6,18 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header{
+.header,
+.footer{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding: 16px 50px;
     color: #F9FAF8;
+}
 
-
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
 .left-links{
@@ -130,11 +134,12 @@ a {
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 72px;
+    gap: 50px;
 }
 
 .card-container .card {
-    max-width: 250px;
+    width: 250px;
+    
 }
 
 .title-2 {
